@@ -1,4 +1,4 @@
-import gym 
+'''import gym 
 import numpy as np
 
 env_name = 'CartPole-v1'
@@ -11,5 +11,8 @@ env.reset()
 for _ in range(200):
 	action = env.action_space.sample()
 	env.step(action)
-	env.render()
+	env.render()'''
 
+import numpy as np 
+import gym
+import matplotlib.pyplot as plt 
